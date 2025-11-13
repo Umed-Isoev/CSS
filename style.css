@@ -1,0 +1,74 @@
+/* подклю через тег */
+p{
+    color: brown;
+}
+.box{
+    height: 290px;
+    width: 250px;
+    background-color: aqua;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;/*нужен для закругления углов. Еще можно закруглить задавая 4 парамента для закругления отдельных углов*/
+    box-shadow: 1px 20px 15px goldenrod;
+}
+.descreption{
+    font-size: 16px;
+    color:rgb(249, 0, 0)
+    
+}
+/* подклю через класс */
+
+.card{
+    height: 220px;
+    width: 200px;
+    background-color: #7bde8f;
+    border: 2 solid black;
+    padding: 10px;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+    
+}
+.price{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:rgb(255, 0, 38);
+   
+}
+.cart{
+    border-radius: 8px;
+    background-color: #e1e816;
+    border: none;
+    padding: 10px;
+}
+.cards{
+    height: 290px;
+    width: 200px;
+    background-color: #e7f0e3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0 20px 0 20px;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.phones{
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+}
+.add{
+    border: none;
+    background-color: #ffbb01;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 5px;
+}
+.buying{
+    margin-top: 30px;
+}
